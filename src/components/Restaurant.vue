@@ -1,5 +1,21 @@
 <template>
   <div class="container">
+    <div class="row">
+      <div class="col m12 s12">
+        <h1>{{ $route.params.nombre }}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col m4 s4">
+        <router-link v-bind:to="{ path: '/' + $route.params.nombre }">Acerca De</router-link>
+      </div>
+      <div class="col m4 s4">
+        <router-link v-bind:to="{ path: '/' + $route.params.nombre + '/reviews' }">Reviews</router-link>
+      </div>
+      <div class="col m4 s4">
+        <router-link v-bind:to="{ path: '/' + $route.params.nombre + '/images'  }">Photos</router-link>
+      </div>
+    </div>
     <router-view></router-view>
   </div>
 </template>

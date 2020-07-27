@@ -2,7 +2,6 @@
   <div class="container">
     <div class="row">
       <div class="col m12 s12">
-        <h1>{{ $route.params.nombre }}</h1>
         <h4>Acerca de</h4>
       </div>
     </div>

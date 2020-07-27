@@ -3,6 +3,11 @@
     <nav>
       <div class="nav-wrapper blue">
         <a id="titulo">Dojo Reviews</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <router-link v-bind:to="{ path: '/' }">Inicio</router-link>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">JavaScript</a></li>
+        </ul>
       </div>
     </nav>
     <router-view />
