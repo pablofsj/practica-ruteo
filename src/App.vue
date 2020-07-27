@@ -2,7 +2,7 @@
   <div id="app">
     <nav>
       <div class="nav-wrapper blue">
-        <a href="" class="brand-logo"><span id="titulo">Dojo Reviews</span></a>
+        <a id="titulo">Dojo Reviews</a>
       </div>
     </nav>
     <router-view />
@@ -18,6 +18,13 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
+#titulo{
+    font-family: 'Fredoka One', cursive;
+    margin-right: 900px;
+    font-size: 30px;
+}
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -26,9 +33,5 @@ export default {
   color: #2c3e50;
 }
 
-#titulo{
-    font-family: 'Fredoka One', cursive;
-    margin-left: 500px;
-}
 
 </style>

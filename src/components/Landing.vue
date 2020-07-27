@@ -8,7 +8,7 @@
     <br><br>
     <div class="row">
       <div class="col m12 s12">
-        <img src="https://lh3.googleusercontent.com/proxy/VN3YPWqTl7LCoYILYd7xAESJM0nmPiiJvEJRy3EGXb6wk2QYgke8SdmPf3lsKynv-1q68WDWLbhtGcB2BwV8Y30_g0AAp4OzfeqtFgwaGoGHo42d1Q" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRapFBTNptlUuhhX7EJlUrC0KfvZkI6tKhy3g&usqp=CAU" alt="">
       </div>
     </div>
     <br><br>

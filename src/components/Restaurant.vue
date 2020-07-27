@@ -1,18 +1,6 @@
 <template>
   <div class="container">
-    <div class="row">
-      <div class="col m12 s12">
-        <h1>Acerca de {{ $route.params.nombre }}</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col m12 s12">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem officia temporibus natus voluptas ratione facere nobis necessitatibus tempore! Eligendi eveniet libero ullam veritatis similique unde quidem quae incidunt. Delectus!</p>
-      </div>
-      <div class="col m12 s12">
-        <p>El Restaurant <span>{{ $route.params.nombre }}</span> agradece tu interés!</p>
-      </div>
-    </div>
+    <router-view></router-view>
   </div>
 </template>
 
