@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: 'Restaurant'
+  name: 'AcercaDe'
 }
 </script>
 
