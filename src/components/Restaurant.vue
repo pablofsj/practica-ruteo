@@ -2,18 +2,18 @@
   <div class="container">
     <div class="row">
       <div class="col m12 s12">
-        <h1>{{ $route.params.nombre }}</h1>
+        <h1>{{ nombre }}</h1>
       </div>
     </div>
     <div class="row">
       <div class="col m4 s4">
-        <router-link v-bind:to="{ path: '/' + $route.params.nombre }">Acerca De</router-link>
+        <router-link v-bind:to="{ name:'AcercaDe' }">Acerca de</router-link>
       </div>
       <div class="col m4 s4">
-        <router-link v-bind:to="{ path: '/' + $route.params.nombre + '/reviews' }">Reviews</router-link>
+        <router-link v-bind:to="{ name:'Revisiones' }">Reviews</router-link>
       </div>
       <div class="col m4 s4">
-        <router-link v-bind:to="{ path: '/' + $route.params.nombre + '/images'  }">Photos</router-link>
+        <router-link v-bind:to="{ name:'Imagenes' }">Photos</router-link>
       </div>
     </div>
     <router-view></router-view>
@@ -22,7 +22,10 @@
 
 <script>
 export default {
-  name: 'Restaurant'
+  name: 'Restaurant',
+  props: {
+    nombre:String
+  }
 }
 </script>
 

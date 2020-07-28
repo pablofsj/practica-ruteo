@@ -4,9 +4,7 @@
       <div class="nav-wrapper blue">
         <a id="titulo">Dojo Reviews</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <router-link v-bind:to="{ path: '/' }">Inicio</router-link>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">JavaScript</a></li>
+          <li><router-link v-bind:to="{ name:'Landing' }">Inicio</router-link></li>
         </ul>
       </div>
     </nav>
@@ -25,8 +23,12 @@ export default {
 
 #titulo{
     font-family: 'Fredoka One', cursive;
-    margin-right: 900px;
+    margin-right: 1200px;
     font-size: 30px;
+}
+
+li{
+  font-family: 'Fredoka One', cursive;
 }
 
 

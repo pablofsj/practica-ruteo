@@ -9,21 +9,21 @@
       <div class="col m4 s12">  
         <div class="card">
           <div class="card-image">
-           <img src="https://lh3.googleusercontent.com/proxy/9pM-Ngts34xwf9srJhGMZ2Nz1xpl91TW2ZDBWdBoB_zZvjIweR0yNVSr86LxL6PFsjqkPPqHjgZZb9dBki3uptuIxEp4UiGqNb7Q3LN2RichlO5G9ddbu2P4u5fcsWU7">
+           <img src="https://prod-wolt-venue-images-cdn.wolt.com/5dce69c1a5308987500515f1/d17c7aad71f4df59153bc7b55ed0e897">
           </div>
         </div>
       </div>
       <div class="col m4 s12">  
         <div class="card">
           <div class="card-image">
-           <img src="https://lh3.googleusercontent.com/proxy/9pM-Ngts34xwf9srJhGMZ2Nz1xpl91TW2ZDBWdBoB_zZvjIweR0yNVSr86LxL6PFsjqkPPqHjgZZb9dBki3uptuIxEp4UiGqNb7Q3LN2RichlO5G9ddbu2P4u5fcsWU7">
+           <img src="https://prod-wolt-venue-images-cdn.wolt.com/5dce69c1a5308987500515f1/d17c7aad71f4df59153bc7b55ed0e897">
           </div>
         </div>
       </div>
       <div class="col m4 s12">  
         <div class="card">
           <div class="card-image">
-           <img src="https://lh3.googleusercontent.com/proxy/9pM-Ngts34xwf9srJhGMZ2Nz1xpl91TW2ZDBWdBoB_zZvjIweR0yNVSr86LxL6PFsjqkPPqHjgZZb9dBki3uptuIxEp4UiGqNb7Q3LN2RichlO5G9ddbu2P4u5fcsWU7">
+           <img src="https://prod-wolt-venue-images-cdn.wolt.com/5dce69c1a5308987500515f1/d17c7aad71f4df59153bc7b55ed0e897">
           </div>
         </div>
      </div>

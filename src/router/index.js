@@ -17,36 +17,45 @@ export default new VueRouter({
     routes: [
         {
             path: '/', 
-            component: Landing
+            component: Landing,
+            name: 'Landing'
         },
         {
             path: '/login', 
-            component: Login
+            component: Login,
+            name: 'Login'
         },
         {
             path: '/:nombre', 
             component: Restaurant,
+            name: 'Restaurant',
+            props: true,
             children:[
                 {
                     path:'',
-                    component: AcercaDe
+                    component: AcercaDe,
+                    name: 'AcercaDe'
 
                 },
                 {
                     path:'reviews',
-                    component: Revisiones
+                    component: Revisiones,
+                    name: 'Revisiones'
 
                 },
                 {
                     path:'images',
-                    component: Imagenes
+                    component: Imagenes,
+                    name: 'Imagenes'
 
                 }
             ]
         },
         {
             path: '/category/:nombre', 
-            component: Category
+            component: Category,
+            name: 'Category',
+            props: true
         },
         {
             path: '*', 
